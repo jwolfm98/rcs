@@ -39,7 +39,7 @@ match ErrorMsg '\s\+$'
 
 autocmd BufEnter * cd %:p:h
 syntax enable
-coloscheme desert
+colorscheme desert
 set tags=.\tags,tags
 
 au FileType C set makeprg=gcc\%
